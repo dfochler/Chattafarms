@@ -1,22 +1,16 @@
 h1, h2 {
-font-family: 'Ranchers', cursive;
-color: #edbd3c;
-}
-
+  font-family: 'Ranchers', cursive;
+  color: #edbd3c; }
 
 h3, h4, h5, h6 {
-    font-family: 'Open Sans', sans-serif;
-    color: #bc4b51;
-}
+  font-family: 'Open Sans', sans-serif;
+  color: #bc4b51; }
 
 body {
-    font-family: 'Raleway', sans-serif;
-    background-color: #7bdceb;
-}
+  font-family: 'Raleway', sans-serif; }
 
 .jumbotron {
-    margin: 0;
-    padding-top:25px;
-    padding-bottom:0px;
-    background-image: linear-gradient(to bottom, #adbc46, #467561);
-    color: white; }
+  margin: 0;
+  padding-top: 25px;
+  padding-bottom: 0px;
+  background-image: linear-gradient(to bottom, #c5d86d, #467561); }
