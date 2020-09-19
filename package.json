@@ -1,0 +1,32 @@
+{
+  "name": "chattafarms",
+  "version": "1.0.0",
+  "description": "Resource for Chattanooga Community Gardening and Produce",
+  "main": "index.html",
+  "scripts": {
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img",
+    "lite": "lite-server",
+    "scss": "node-sass -o css/ css/",
+    "start": "npm run watch:all",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
+    "watch:scss": "onchange 'css/*.scss' -- npm run scss",
+    "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dfochler/Chattafarms.git"
+  },
+  "author": "Donna Fochler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dfochler/Chattafarms/issues"
+  },
+  "homepage": "https://github.com/dfochler/Chattafarms#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
