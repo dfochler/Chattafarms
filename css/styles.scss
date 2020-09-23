@@ -1,0 +1,48 @@
+$color-dg: #467561;
+$color-lg: #c5d86d;
+$color-dr: #bc4b51;
+$color-skyblue: #7bdceb;
+$color-yellogo: #edbd3c;
+
+
+body, html {
+    height: 100%;
+  }
+  .bg {
+    /* The image used */
+    background-image: url('../../images/bridge-left.jpg');
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h1, h2 {
+    font-family: 'Ranchers', cursive;
+    color: $color-dg;
+    }
+    
+    
+h3, h4, h5, h6 {
+        font-family: 'Open Sans', sans-serif;
+        color: $color-dr;
+    }
+    
+body {
+        font-family: 'Raleway', sans-serif;
+    
+    }
+    
+.jumbotron {
+        margin: 0;
+        padding-top:25px;
+        padding-bottom:0px;
+        background-image: linear-gradient(to bottom, $color-lg, $color-dg);
+     }
+
+
+

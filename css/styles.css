@@ -1,6 +1,19 @@
+body, html {
+  height: 100%; }
+
+.bg {
+  /* The image used */
+  background-image: url("../../images/bridge-left.jpg");
+  /* Full height */
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 h1, h2 {
   font-family: 'Ranchers', cursive;
-  color: #edbd3c; }
+  color: #467561; }
 
 h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
