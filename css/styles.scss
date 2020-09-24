@@ -9,40 +9,71 @@ body, html {
     height: 100%;
   }
   .bg {
-    /* The image used */
     background-image: url('../../images/bridge-left.jpg');
-  
-    /* Full height */
     height: 100%;
-  
-    /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }
 
-h1, h2 {
-    font-family: 'Ranchers', cursive;
+h1 {
+    font-family: 'Raleway', sans-serif;
     color: $color-dg;
+    font-size: 3rem;
+    margin-right: 0;
+    margin-bottom:0;
+    padding:0;
     }
     
     
-h3, h4, h5, h6 {
+h3, p {
         font-family: 'Open Sans', sans-serif;
-        color: $color-dr;
+        color: white;
     }
+
+p {
+    text-align: center;
+}
     
-body {
-        font-family: 'Raleway', sans-serif;
-    
-    }
-    
-.jumbotron {
-        margin: 0;
-        padding-top:25px;
-        padding-bottom:0px;
-        background-image: linear-gradient(to bottom, $color-lg, $color-dg);
-     }
+hr {
+    border-style: none;
+    border-top-style: solid;
+    border-color:$color-dg;
+    border-width: 5px;
+    width: 100%;
+    margin-top: 0;
+   
+}
+
+#aboutText {
+    background-color: rgba(21, 104, 24, 0.7);
+}
 
 
 
+.navbar {
+    padding: 0;
+    margin-bottom: 1rem;
+
+}
+    
+.sidenav {
+    height:100%;
+    width:200px;
+    position:fixed;
+    z-index:1;
+    top:0;
+    right:0;
+    padding-top:30px;
+    overflow-x:hidden;
+}
+
+
+
+
+
+
+.main {
+    margin-right:200px;
+    padding: 0px 10px;
+}
