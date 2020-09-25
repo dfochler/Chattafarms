@@ -14,9 +14,10 @@ h1 {
   font-size: 3rem;
   margin-right: 0;
   margin-bottom: 0;
-  padding: 0; }
+  margin-top: 20px;
+  padding-left: 0; }
 
-h3, p {
+h2, h3, p {
   font-family: 'Open Sans', sans-serif;
   color: white; }
 
@@ -26,17 +27,17 @@ p {
 hr {
   border-style: none;
   border-top-style: solid;
-  border-color: #467561;
+  border-color: #c5d86d;
   border-width: 5px;
   width: 100%;
-  margin-top: 0; }
+  margin: 2px; }
 
 #aboutText {
   background-color: rgba(21, 104, 24, 0.7); }
 
 .navbar {
   padding: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 0; }
 
 .sidenav {
   height: 100%;
@@ -45,9 +46,26 @@ hr {
   z-index: 1;
   top: 0;
   right: 0;
-  padding-top: 30px;
+  padding-top: 40px;
   overflow-x: hidden; }
 
 .main {
   margin-right: 200px;
   padding: 0px 10px; }
+
+.notmain {
+  padding: 0px 10px; }
+
+#homeCol {
+  max-width: 90px; }
+
+.footercontainer {
+  background-color: #c5d86d;
+  padding: 2rem; }
+
+.section {
+  margin-top: 3rem;
+  margin-left: 1rem; }
+  .section h2 {
+    color: #c5d86d;
+    text-align: center; }

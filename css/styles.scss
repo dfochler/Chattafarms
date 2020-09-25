@@ -22,11 +22,12 @@ h1 {
     font-size: 3rem;
     margin-right: 0;
     margin-bottom:0;
-    padding:0;
+    margin-top:20px;
+    padding-left:0;
     }
     
     
-h3, p {
+h2, h3, p {
         font-family: 'Open Sans', sans-serif;
         color: white;
     }
@@ -38,11 +39,10 @@ p {
 hr {
     border-style: none;
     border-top-style: solid;
-    border-color:$color-dg;
+    border-color:$color-lg;
     border-width: 5px;
     width: 100%;
-    margin-top: 0;
-   
+    margin:2px;   
 }
 
 #aboutText {
@@ -52,8 +52,9 @@ hr {
 
 
 .navbar {
-    padding: 0;
-    margin-bottom: 1rem;
+    padding:0;
+    margin-bottom: 0;
+
 
 }
     
@@ -64,16 +65,35 @@ hr {
     z-index:1;
     top:0;
     right:0;
-    padding-top:30px;
+    padding-top:40px;
     overflow-x:hidden;
 }
-
-
-
-
 
 
 .main {
     margin-right:200px;
     padding: 0px 10px;
+}
+
+.notmain {
+    padding:0px 10px;
+}
+#homeCol {
+    max-width: 90px;
+}
+
+.footercontainer {
+    background-color:$color-lg;
+    padding:2rem;
+}
+
+.section {
+    margin-top:3rem;
+    margin-left:1rem;
+    h2 {
+        color:$color-lg;
+        text-align: center;
+        
+
+    }
 }
