@@ -7,6 +7,7 @@ $color-yellogo: #edbd3c;
 
 body, html {
     height: 100%;
+    background-color: $color-dr;
   }
   .bg {
     background-image: url('../../images/bridge-left.jpg');
@@ -14,6 +15,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
   }
 
 h1 {
@@ -22,12 +24,12 @@ h1 {
     font-size: 3rem;
     margin-right: 0;
     margin-bottom:0;
-    margin-top:20px;
+    margin-top:10px;
     padding-left:0;
     }
     
     
-h2, h3, p {
+h2, p {
         font-family: 'Open Sans', sans-serif;
         color: white;
     }
@@ -55,9 +57,10 @@ hr {
     padding:0;
     margin-bottom: 0;
 
-
 }
     
+
+
 .sidenav {
     height:100%;
     width:200px;
@@ -69,6 +72,9 @@ hr {
     overflow-x:hidden;
 }
 
+.header {
+    margin-left:1rem;
+}
 
 .main {
     margin-right:200px;
@@ -84,7 +90,7 @@ hr {
 
 .footercontainer {
     background-color:$color-lg;
-    padding:2rem;
+    padding:1rem;
 }
 
 .section {
@@ -97,3 +103,77 @@ hr {
 
     }
 }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body{
+    font-family: sans-serif;
+  }
+  
+  .middle-me{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .calendar{
+    box-shadow: 3px 3px 9px rgba(0,0,0,.3);
+    border-radius: .5rem;
+    overflow: hidden;
+  }
+  
+  .calendar .day{  
+    padding: 1rem;
+    background-color: $color-dg;
+    color: #d1ccc0;
+  }
+  
+  .full-day{
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .day-week{
+    font-size: .9rem;
+    font-weight: 600;
+    text-align: right;
+    letter-spacing: 1px;
+  }
+  
+  .grid-days{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: .5rem;
+    padding: 1rem 1rem;
+  }
+  
+  .day-cel{
+    text-align: center;  
+  }
+  
+  .day-cel.header{
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .day-cel.aday{  
+    border-radius: 1rem;
+    padding: .25rem;
+    cursor: pointer;
+  }
+  
+  .day-cel.aday:hover{
+    background-color: #d1ccc0;  
+  }
+  
+  .day-cel.aday.selected-day{
+    background-color:$color-dg;
+    color: #d1ccc0;
+    font-weight: 600;
+  }

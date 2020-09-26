@@ -11,12 +11,17 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
-
+    
+    
+    
+    
     <!--Fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap"
         rel="stylesheet">
+
+    
 
     <!--favicon-->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -41,17 +46,9 @@
         </div>
 
         <div class="main">
-
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <h1>ChattaCity Farms</h1>
-                    </div>
-                </div>
-            </div>
-
+<div class="header">
             <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-                <div class="d-flex container">
+                <div class="container pl-0">
                         <button class="navbar-toggler" data-toggle="collapse" data-target="#ccfNavbar">
                             <span class="navbar-toggler-icon"></span>
                         </button>
@@ -71,6 +68,16 @@
                         </div>
                     </div>
                 </nav>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1>ChattaCity Farms</h1>
+                    </div>
+                </div>
+            </div>
+</div>
+            
 
             <hr>
 
@@ -97,7 +104,68 @@
                 <h2><u> Workshops</u></h2>
                 <hr>
             </div>
-
+            
+            <div class="container" id="calendar">
+                <div class="row">
+                    <div class="col-sm-4">
+                <div class="middle-me">
+                    <div class="calendar bg-white">
+                      <div class="day">
+                        <div class="full-day">
+                          Sept, 26th
+                        </div>
+                        <div class="day-week">
+                          Friday
+                        </div>
+                      </div>
+                      <div class="grid-days">
+                        <div class="day-cel header">S</div>
+                        <div class="day-cel header">M</div>
+                        <div class="day-cel header">T</div>
+                        <div class="day-cel header">W</div>
+                        <div class="day-cel header">T</div>
+                        <div class="day-cel header">F</div>
+                        <div class="day-cel header">S</div>
+                  
+                        <div class="day-cel aday"></div>
+                        <div class="day-cel aday">1</div>
+                        <div class="day-cel aday">2</div>
+                        <div class="day-cel aday">3</div>
+                        <div class="day-cel aday">4</div>
+                        <div class="day-cel aday">5</div>
+                        <div class="day-cel aday">6</div>
+                        <div class="day-cel aday">7</div>
+                        <div class="day-cel aday">8</div>
+                        <div class="day-cel aday">9</div>
+                        <div class="day-cel aday">10</div>
+                        <div class="day-cel aday">11</div>
+                        <div class="day-cel aday">12</div>
+                        <div class="day-cel aday">13</div>
+                        <div class="day-cel aday">14</div>
+                        <div class="day-cel aday">15</div>
+                        <div class="day-cel aday">16</div>
+                        <div class="day-cel aday">17</div>
+                        <div class="day-cel aday">18</div>
+                        <div class="day-cel aday">19</div>
+                        <div class="day-cel aday">20</div>
+                        <div class="day-cel aday">21</div>
+                        <div class="day-cel aday">22</div>
+                        <div class="day-cel aday">23</div>
+                        <div class="day-cel aday">24</div>
+                        <div class="day-cel aday">25</div>
+                        <div class="day-cel aday selected-day">26</div>
+                        <div class="day-cel aday">27</div>
+                        <div class="day-cel aday">28</div>
+                        <div class="day-cel aday">29</div>
+                        <div class="day-cel aday">30</div>
+                        <div class="day-cel aday"></div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+            </div>
+            </div>
+            
             <div class="section">
                 <h2><u>Local Markets</u></h2>
                 <hr>
@@ -110,14 +178,12 @@
     </div>
 
     <footer>
-        <div class="footercontainer main">
-            <div class="row">
-                <div class="col">
-                    <h5 class="text-center">Footer</h5>
-                </div>
-            </div>
-        </div>
+        
+    
+               
+        
     </footer>
+</div>
 
 
 
@@ -127,10 +193,18 @@
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
     <!-- build:js js/main.js -->
+    
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+        
+
+
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+    
+
     <!-- endbuild -->
 </body>
 

@@ -33,10 +33,15 @@
     "parallelshell": "^3.0.1"
   },
   "dependencies": {
+    "@fullcalendar/core": "^5.3.1",
+    "@fullcalendar/daygrid": "^5.3.2",
     "bootstrap": "^4.5.0",
     "bootstrap-social": "^5.1.1",
+    "clndr": "^1.5.1",
     "font-awesome": "^4.7.0",
+    "fullcalendar": "^5.3.2",
     "jquery": "^3.5.1",
+    "moment": "^2.29.0",
     "popper.js": "^1.16.1"
   }
 }
