@@ -1,6 +1,10 @@
 body, html {
+  background: url("../../images/bridge-left.jpg") no-repeat top center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
   height: 100%;
-  background-color: #bc4b51; }
+  width: 100%; }
 
 .bg {
   background-image: url("../../images/bridge-left.jpg");
@@ -12,7 +16,7 @@ body, html {
 
 h1 {
   font-family: 'Raleway', sans-serif;
-  color: #467561;
+  color: #c5d86d;
   font-size: 3rem;
   margin-right: 0;
   margin-bottom: 0;
@@ -30,7 +34,7 @@ hr {
   border-style: none;
   border-top-style: solid;
   border-color: #c5d86d;
-  border-width: 5px;
+  border-width: 4px;
   width: 100%;
   margin: 2px; }
 
@@ -38,8 +42,9 @@ hr {
   background-color: rgba(21, 104, 24, 0.7); }
 
 .navbar {
+  background-color: rgba(197, 216, 109, 0.3);
   padding: 0;
-  margin-bottom: 0; }
+  margin-bottom: 1rem; }
 
 .sidenav {
   height: 100%;
@@ -48,18 +53,12 @@ hr {
   z-index: 1;
   top: 0;
   right: 0;
-  padding-top: 40px;
+  padding-top: 5rem;
   overflow-x: hidden; }
-
-.header {
-  margin-left: 1rem; }
 
 .main {
   margin-right: 200px;
-  padding: 0px 10px; }
-
-.notmain {
-  padding: 0px 10px; }
+  padding: 0px; }
 
 #homeCol {
   max-width: 90px; }
@@ -69,11 +68,15 @@ hr {
   padding: 1rem; }
 
 .section {
-  margin-top: 3rem;
-  margin-left: 1rem; }
+  margin-top: 3rem; }
   .section h2 {
-    color: #c5d86d;
+    color: #467561;
+    background-color: #c5d86d;
     text-align: center; }
+
+div {
+  margin: 0;
+  padding: 0; }
 
 * {
   margin: 0;
