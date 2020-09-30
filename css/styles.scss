@@ -3,7 +3,7 @@ $color-lg: #c5d86d;
 $color-dr: #bc4b51;
 $color-skyblue: #7bdceb;
 $color-yellogo: #edbd3c;
-$color-lg-transparent: rgba(77.3%, 84.7%, 42.7%, 0.3);
+$color-lg-transparent: rgba(77.3%, 84.7%, 42.7%, 0.8);
 
 
 body, html {
@@ -30,13 +30,15 @@ h1 {
     color: $color-lg;
     font-size: 3rem;
     margin-right: 0;
+    margin-left:2rem;
     margin-bottom:0;
     margin-top:10px;
     padding-left:0;
+
     }
     
     
-h2, p {
+h2, h3, p {
         font-family: 'Open Sans', sans-serif;
         color: white;
     }
@@ -54,8 +56,11 @@ hr {
     margin:2px;   
 }
 
-#aboutText {
+#aboutText, #markets {
     background-color: rgba(21, 104, 24, 0.7);
+    p{
+        color:white;
+    }
 }
 
 
@@ -92,7 +97,7 @@ hr {
 }
 
 .footercontainer {
-    background-color:$color-lg;
+    background-color:$color-lg-transparent;
     padding:1rem;
 }
 
@@ -101,17 +106,14 @@ hr {
     
     h2 {
         color:$color-dg;
-        background-color: $color-lg;
+        background-color: $color-lg-transparent;
         text-align: center;
         
 
     }
 }
 
-div {
-    margin:0;
-    padding:0;
-}
+
 
 
 *{
@@ -120,9 +122,7 @@ div {
     box-sizing: border-box;
   }
   
-  html, body{
-    font-family: sans-serif;
-  }
+  
   
   .middle-me{
     height: 70vh;

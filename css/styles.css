@@ -19,11 +19,12 @@ h1 {
   color: #c5d86d;
   font-size: 3rem;
   margin-right: 0;
+  margin-left: 2rem;
   margin-bottom: 0;
   margin-top: 10px;
   padding-left: 0; }
 
-h2, p {
+h2, h3, p {
   font-family: 'Open Sans', sans-serif;
   color: white; }
 
@@ -38,11 +39,13 @@ hr {
   width: 100%;
   margin: 2px; }
 
-#aboutText {
+#aboutText, #markets {
   background-color: rgba(21, 104, 24, 0.7); }
+  #aboutText p, #markets p {
+    color: white; }
 
 .navbar {
-  background-color: rgba(197, 216, 109, 0.3);
+  background-color: rgba(197, 216, 109, 0.8);
   padding: 0;
   margin-bottom: 1rem; }
 
@@ -64,27 +67,20 @@ hr {
   max-width: 90px; }
 
 .footercontainer {
-  background-color: #c5d86d;
+  background-color: rgba(197, 216, 109, 0.8);
   padding: 1rem; }
 
 .section {
   margin-top: 3rem; }
   .section h2 {
     color: #467561;
-    background-color: #c5d86d;
+    background-color: rgba(197, 216, 109, 0.8);
     text-align: center; }
-
-div {
-  margin: 0;
-  padding: 0; }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
-
-html, body {
-  font-family: sans-serif; }
 
 .middle-me {
   height: 70vh;
