@@ -63,12 +63,21 @@ hr {
     }
 }
 
+.card-body{
+  background-color:$color-lg;
+}
 
+.card-header {
+  background-color: $color-dg;
+}
 
+.card-text{
+  color:black;
+}
 .navbar {
     background-color: $color-lg-transparent;
     padding:0;
-    margin-bottom: 1rem;
+    
 
 }
     

@@ -44,10 +44,18 @@ hr {
   #aboutText p, #markets p {
     color: white; }
 
+.card-body {
+  background-color: #c5d86d; }
+
+.card-header {
+  background-color: #467561; }
+
+.card-text {
+  color: black; }
+
 .navbar {
   background-color: rgba(197, 216, 109, 0.8);
-  padding: 0;
-  margin-bottom: 1rem; }
+  padding: 0; }
 
 .sidenav {
   height: 100%;
